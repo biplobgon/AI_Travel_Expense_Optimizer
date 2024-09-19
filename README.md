@@ -35,9 +35,9 @@ A Streamlit-based application that helps users optimize travel expenses based on
 - API Integration: Flight and hotel data (upcoming).
 
 ## Future Improvements
--- Integrating real-time flight and hotel price data from APIs like Skyscanner and Booking.com.
--- Interactive map for destination exploration.
--- Inflation-adjusted budgeting for more accurate trip planning.
+- Integrating real-time flight and hotel price data from APIs like Skyscanner and Booking.com.
+- Interactive map for destination exploration.
+- Inflation-adjusted budgeting for more accurate trip planning.
 
 ## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page(https://github.com/biplobgon/AI_Travel_Expense_Optimizer/issues) or submit a pull request.
