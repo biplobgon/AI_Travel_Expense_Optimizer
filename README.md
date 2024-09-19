@@ -46,7 +46,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ### **2. Repository Structure**
-```vbnet
 AI_Travel_Expense_Optimizer/ ├── .gitignore # Add unnecessary files to ignore, like .DS_Store or environment files ├── travel_expense_optimizer.py # The main Streamlit app script ├── README.md # A detailed description of the project ├── requirements.txt # Dependencies for the project ├── LICENSE # License file for your project (MIT, Apache, etc.) └── assets/ # Store images, screenshots, or media for README
 
 
