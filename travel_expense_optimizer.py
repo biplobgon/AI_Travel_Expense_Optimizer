@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title("AI Travel Expense Optimizer MVP")
+st.title("Gon's Den - Your AI Travel Expense Optimizer MVP")
 
 # User input for travel preferences
-budget = st.number_input("Enter your total budget (USD)", min_value=100, max_value=10000, value=1000)
-travel_type = st.selectbox("Select travel preference", ["Luxury", "Adventure", "Local Culture"])
+budget = st.number_input("Enter your total budget (in $)", min_value=100, max_value=10000, value=1000)
+travel_type = st.selectbox("Select travel preference", ["Luxury", "Adventure", "Local Culture", "Honeymoon"])
 trip_duration = st.slider("Select number of days for the trip", 1, 30, 7)
 
 # Display the inputs for confirmation
@@ -16,9 +16,9 @@ st.write(f"Trip Duration: {trip_duration} days")
 
 # Sample data for destinations and their costs
 data = {
-    "Destination": ["Paris", "Bangkok", "Cape Town", "Tokyo", "New York"],
-    "Type": ["Luxury", "Adventure", "Local Culture", "Luxury", "Local Culture"],
-    "Cost Per Day (USD)": [200, 50, 80, 150, 180]
+    "Destination": ["Paris", "Bangkok", "Cape Town", "Tokyo", "New York", "Maldives", "Dubai"],
+    "Type": ["Luxury", "Adventure", "Local Culture", "Luxury", "Local Culture", "Honeymoon", "Luxury"],
+    "Cost Per Day (USD)": [200, 50, 80, 150, 180, 180, 150]
 }
 
 df = pd.DataFrame(data)
